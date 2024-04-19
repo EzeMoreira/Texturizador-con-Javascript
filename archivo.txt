@@ -1,0 +1,5 @@
+                IMPORTANTE LEER
+
+
+Ejemplo de ejercicio para texturizador, en el respectivo codigo javascript se agregan las indicaciones del
+paso a paso.
