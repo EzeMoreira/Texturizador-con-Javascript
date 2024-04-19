@@ -4,7 +4,9 @@
 
 const zona = document.querySelector(".zona");
 zona.addEventListener("dragOver", (e)=>{
-    e.preventDefault(); 
+    e.preventDefault();
+    
+//Ahora creamos un evento para cuando soltemos la textura dentro de la zona    
 })
 zona.addEventListener("drop", (e)=>{
     let n = e.dataTransfer.getData("textura");
@@ -22,4 +24,3 @@ const transferirTextura = (n,e) => {
     e.dataTransfer.setData("textura", n)
 }
 
-//Ahora creamos un evento para cuando soltemos la textura dentro de la zona
